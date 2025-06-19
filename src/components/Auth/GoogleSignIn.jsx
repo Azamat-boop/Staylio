@@ -2,7 +2,7 @@ import React from "react";
 import { auth } from "../../firbase";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import "./GoogleSignIn.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const GoogleSignIn = () => {
     //  const navigate = useNavigate();
