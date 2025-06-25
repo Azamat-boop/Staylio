@@ -11,10 +11,7 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 
-// Инициализируем Firebase
 const app = initializeApp(firebaseConfig);
-
-// Инициализируем модуль аутентификации
 const auth2 = getAuth(app);
 
 export { auth2 };
